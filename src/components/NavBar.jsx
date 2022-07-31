@@ -18,7 +18,7 @@ export default function NavBar({onModeChange}) {
       <AppBar position="sticky">
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            React Kitties Tutorial App
+            React Kitties Tutorial App: Favouriting
           </Typography>
           <FormGroup>
   <FormControlLabel control={<Switch onChange={handleModeChange} defaultValue={false} color="error"/>} label="Show Your Favourites" />
